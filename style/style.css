@@ -100,9 +100,17 @@
     background-color: #B7252D;
     width: 200px;
     border-radius: 14px;
+    margin-bottom: 10px;
     height: 35px;
     flex-shrink: 0;
     border: solid 1px #B7252D;
     color: white;
     font-size: 11px; 
+}
+#Mood{
+    color: wheat;
+    margin-left: 15px;
+}
+.moodbuttons{
+    display: flex;
 }
