@@ -66,7 +66,8 @@
     height: 150px;
     width: 100px;
     color: #F0F0F0;
-    font-size: 8px;
+    font-size: 11px;
+    
 }
 .singer-img{
     width: 100%; 
@@ -88,4 +89,19 @@
     margin-top: 14px;
     color: white;
     font-size: 15px;
+}
+.moreevents{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+#eventsbutton{
+    background-color: #B7252D;
+    width: 200px;
+    border-radius: 14px;
+    height: 25px;
+    flex-shrink: 0;
+    border: solid 1px #B7252D;
+    color: white;
+    font-size: 11px;
 }
