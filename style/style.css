@@ -1,6 +1,12 @@
+:root {
+    --primary: #B7252D;
+    --secondary : #C4CFD7;
+    --whiteFont : #F0F0F0;
+    --background : #0D1B28;
+  }
 .body{
     font-family: 'Poppins', sans-serif;
-    background-color: #0D1B28;
+    background-color: var(--secondary);
     height: 608px;
 }
 .header{
