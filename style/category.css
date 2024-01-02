@@ -1,0 +1,24 @@
+:root {
+    --primary: #B7252D;
+    --secondary : #C4CFD7;
+    --whiteFont : #F0F0F0;
+    --background : #0D1B28;
+  }
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+li a {
+    text-decoration: none   ;
+}
+card-img-top{
+    padding-top: 56.25%;
+}
