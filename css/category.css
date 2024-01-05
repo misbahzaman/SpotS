@@ -1,0 +1,14 @@
+:root {
+    --primary: #B7252D;
+    --secondary : #C4CFD7;
+    --whiteFont : #F0F0F0;
+    --background : #0D1B28;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    outline: none;
+}
