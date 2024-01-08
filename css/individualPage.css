@@ -1,0 +1,15 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tag {
+    padding: 5px;
+    border: solid;
+    border-color: #B7252D;
+    color: #0D1B28;
+    border-radius: 50px;
+    font-size: 12px;
+    border-width: 2px;
+}
