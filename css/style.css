@@ -94,7 +94,6 @@
     margin-top: 60px;
     display: flex;
     justify-content: center;
-    border-bottom: solid 2px #F0F0F0;
 }
 #eventsbutton{
     background-color: #B7252D;
@@ -116,7 +115,7 @@
     justify-content: center;
     gap: 8px;
     color: white;
-    border-bottom: solid 2px #F0F0F0;
+    border-bottom: solid 2px #bc1414;
 }
 #bt1{
     width: 75px;
@@ -157,6 +156,7 @@
 #tspots{
     color: wheat;
     margin-left: 15px;
+    margin-top: 10px;
 }
 .container{
     display: flex;
@@ -200,6 +200,7 @@
 .sitename{
     margin-left: 25px;
     margin-bottom: 0;
+    margin-top: 15px;
 }
 .social{
     display: flex;
