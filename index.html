@@ -35,57 +35,118 @@
         </div>
     </nav>
     <!-- nav bar ends -->
-    
-    <div>
-        <p class = eventsnow id="text"><strong>Events Now</strong></p>
-        <div class = events>
-            <div class = eventslist>
-                <img src="https://source.unsplash.com/1600x1000/?singer" class="singer-img" alt="">
-                <p>ARIJIT SINGH CONCERT</p>
+    <div class="container bg-dark" style="border-bottom: solid 2px #c21212">
+        <h5 class="text-info" style="margin-bottom: 0;">EVENTS NOW</h5>
+        <div id="carouselExampleCaptions" class="container carousel slide" style="margin-top: 0;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class = eventslist>
-                <img src="https://source.unsplash.com/1600x1000/?concert" class="singer-img" alt="">
-                <p>ARIJIT SINGH CONCERT</p>
+            <div class="carousel-inner rounded">
+              <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x1000/?singer" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h5>arijit singh concert</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x1000/?rapper" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h5>sonu nigam concert</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x1000/?artist" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>honey singh concert</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
             </div>
-            <div class = eventslist>
-                <img src="https://source.unsplash.com/1600x1000/?club" class="singer-img" alt="">
-                <p>ARIJIT SINGH CONCERT</p>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class = "moreevents mt-1 mb-3"><button id = eventsbutton><strong>More Events</strong></button></div>
+    </div>
+    <div >
+        <p id ="Mood"><strong>Mood</strong></p>
+        <div class="container mt-2" style="border-bottom: solid 2px rgb(167, 28, 28);">
+            <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-3 ">
+                <button id="bt1" type="button" class="btn btn-primary btn-block">chill</button>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-3">
+                <button id="bt2" type="button" class="btn btn-secondary btn-block">hot</button>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-3">
+                <button id="bt3" type="button" class="btn btn-success btn-block">cold</button>
+            </div>
+            <div class="col-sm-3 col-md-2 col-lg-1 col-3">
+                <button id="bt4" type="button" class="btn btn-danger btn-block">sweet</button>
+            </div>
             </div>
         </div>
-        <div class = moreevents><button id = eventsbutton><strong>More Events</strong></button></div>
     </div>
-    <div>
-        <p id = "Mood"><strong>Mood</strong></p>
-        <div class = moodbuttons>
-            <button id = "bt1">chill</button>
-            <button id = "bt2">hot</button>
-            <button id = "bt3">sweet</button>
-            <button id = "bt4">cold</button>
-        </div>
-    </div>
-    <div>
+
+    <div class="bg-dark">
         <p id = "tspots"><strong>Top Spots</strong></p>
-        <div class = "container">
-            <div class = topplaces>
-                <img src="https://source.unsplash.com/1600x1000/?momo" class="momo-img" alt="">
-                MOMO
-            </div>
-            <div class = topplaces>
-                <img src="https://source.unsplash.com/1600x1000/?noodles" class="momo-img" alt="">
-                noodles
-            </div>
-            <div class = topplaces>
-                <img src="https://source.unsplash.com/1600x1000/?samosa" class="momo-img" alt="">
-                samosa
-            </div>
-            <div class = topplaces>
-                <img src="https://source.unsplash.com/1600x1000/?sandwich" class="momo-img" alt="">
-                sandwich
+        <style>
+            .food-card {
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            }
+        </style>
+        </head>
+        <body>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-6 col-6">
+                <div class="card food-card border-info">
+                    <img src="https://source.unsplash.com/1600x1000/?pizza" class="card-img-top" alt="Food Image 1">
+                    <div class="card-img-overlay">
+                    <h3 class="card-title text-warning"><strong>Pizza</strong></h3>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-6 col-6">
+                <div class="card food-card border-info">
+                    <img src="https://source.unsplash.com/1600x1000/?burger" class="card-img-top" alt="Food Image 2">
+                    <div class="card-img-overlay">
+                    <h3 class="card-title text-warning"><strong>Burger</strong></h3>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-6 col-6">
+                    <div class="card food-card border-info">
+                        <img src="https://source.unsplash.com/1600x1000/?chicken" class="card-img-top" alt="Food Image 2">
+                        <div class="card-img-overlay">
+                        <h3 class="card-title text-warning"><strong>Chicken</strong></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-6">
+                    <div class="card food-card border-info">
+                        <img src="https://source.unsplash.com/1600x1000/?tikka" class="card-img-top" alt="Food Image 2">
+                        <div class="card-img-overlay">
+                        <h3 class="card-title text-warning"><strong>Tikka</strong></h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class = about>
-        <h1 class = sitename>SPOTS</h1>
+    <div class = "container-fluid about">
+        <h1 class = "sitename">SPOTS</h1>
         <div class = flex>
             <div class = abouttext>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
