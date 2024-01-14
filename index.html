@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script type="text/javascript" src="/script/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <title>Document</title>
 </head>
 <body class = body>
@@ -145,28 +146,17 @@
             </div>
         </div>
     </div>
-    <div class = "container-fluid about">
-        <h1 class = "sitename">SPOTS</h1>
-        <div class = flex>
-            <div class = abouttext>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
-                <p>spots@gamil.com</p>
-            </div>
-            <div class = social>   
-                <button id = "btn">instagram</button>  
-                <button id = "btn">facebook</button>  
-                <button id = "btn">twitter</button>  
-            </div>
-        </div>
-    </div>
-    <div class = footer>
-        A Patna Intiative
-    </div>
-
+    <div id="contentContainer"></div>
+    <script>
+        // Using jQuery to load content from otherfile.html
+        $(document).ready(function() {
+            $('#contentContainer').load('footer.html');
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-        <script type="text/javascript" src="/script/category.js"></script>
+    <script type="text/javascript" src="/script/category.js"></script>
 </body>
 
 </html>
